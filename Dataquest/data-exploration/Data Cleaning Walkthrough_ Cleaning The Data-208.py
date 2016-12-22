@@ -1,7 +1,6 @@
 ## 4. Reading in the data ##
 
 import pandas as pd
-
 data_files = [
     "ap_2010.csv",
     "class_size.csv",
@@ -10,7 +9,6 @@ data_files = [
     "hs_directory.csv",
     "sat_results.csv"
 ]
-
 data = {}
 for f in data_files:
     d = pd.read_csv("schools/{0}".format(f))

@@ -7,7 +7,6 @@ print(correlations)
 
 ## 3. Plotting enrollment ##
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 combined.plot.scatter(x='total_enrollment', y='sat_score')
 plt.show()

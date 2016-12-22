@@ -1,3 +1,3 @@
 # Purpose
 
-This repo hosts code examples of training done in Python, SQL and R. A large portion of it is from Dataquest.io and MOOC's from various platforms. But all are related to my perpetual journey to be a better Data Scientist.
+This repo is to document my experience of learning different tools for Data Science. They consist of Python, R, SQL and for curiosity some FORTRAN 95 code as well. I hope some of the code snippets you might find useful in your own work. 

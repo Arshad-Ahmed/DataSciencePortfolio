@@ -1,7 +1,7 @@
 library(tm)
 library(igraph)
 
-twitter_data = read.table(file="~/Desktop/results_olympics.csv", header=TRUE,sep=",",encoding="UTF-8", stringsAsFactors = FALSE)
+twitter_data = read.table(file=file.choose(), header=TRUE,sep=",",encoding="UTF-8", stringsAsFactors = FALSE)
 twitter_data$text = paste(substr(twitter_data$text,2,nchar(twitter_data$text))) # We may need to remove the first charactore 'b' from the string.
 
 text = twitter_data$text
